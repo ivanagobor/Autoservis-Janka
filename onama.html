@@ -159,8 +159,8 @@ footer {
 <body class="bg-black">
   <div class="container-fluid">
       <nav class="navbar navbar-expand-lg d-flex justify-content-between bg-black">
-          <a class="navbar-brand" href="#">
-              <img src="logoproba.png" alt="Logo" width="100" height="50">
+          <a class="navbar-brand" href="index.html">
+            <img src="logo.png" alt="Logo" width="100" height="90">
           </a>
 
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -208,8 +208,17 @@ footer {
      <div class="text-center">
         <img src="IMG_8383.jpg" alt="car-service" style="max-height: 380px; width: 700px;;">
     </div>
-    
-   
+    <style>
+        /* Stil za telefon */
+        @media (max-width: 768px) {
+          img {
+            max-width: 100%;
+            height: auto;
+          }
+        }
+    </style>
+
+
 
     <div class="section2">
     <p class="text-center"> Dobrodosli u servis Janka </p>
@@ -219,6 +228,28 @@ footer {
     <p class="text-center"> Servis Test postoji od 2000. Godine, višegodisnje iskustvo, desetine zadovoljnih klijenata, servis opremljen najsavremenijom opremom po evropskim standardima. Nas servis stoji na usluzi kako fizičkim tako i svim pravnim licima. Naši zaposleni će uvek izaći u susret klijentima za savet i najbrše otklanjanje svih vrsta kvarova na vašem vozilu.Servis Test postoji od 2000. Godine, višegodisnje iskustvo, desetine zadovoljnih klijenata, servis opremljen najsavremenijom opremom po evropskim standardima. Nas servis stoji na usluzi kako fizičkim tako i svim pravnim licima. Naši zaposleni će uvek izaći u susret klijentima za savet i najbrše otklanjanje svih vrsta kvarova na vašem vozilu.</p>
 </div>
 
+<style>
+    /* Stil za telefon */
+    @media (max-width: 768px) {
+      .section2 p,
+      .section2 h4 {
+        font-size: 18px; /* Postavite željenu manju veličinu teksta za telefone */
+        color: white;
+      }
+      .section2 p {
+        margin-left: auto; /* Uklanja marginu sa leve strane */
+        margin-right: auto; /* Uklanja marginu sa desne strane */
+        text-align: center; /* Centrira tekst */
+        color: rgb(255, 255, 255); /* Postavlja boju teksta */
+        margin-top: 10px; /* Postavlja marginu na vrhu */
+        font-size: 14px;
+      }
+    }
+  </style>
+  
+
+
+
 <div class="section4">
 <div class="row">
     <div class="col-lg-6 col-md-6 col-sm-12">
@@ -226,7 +257,7 @@ footer {
     </div>
 
     <div class="col-lg-6 col-md-6 col-sm-12">
-        <p class="text-center">EXIT je proglašen i za Najbolji evropski festival za 2016. godinu od strane vodećeg evropskog turističkog priznanja "European Best Destinations", koje se dodeljuje u saradnji sa sa Evropskom komisijom, dok je Savet za regionalnu saradnju 2017. odabrao EXIT festival za Šampiona regionalne saradnje u Jugoistočnoj Evropi.</p>
+        <p class="text-center">"Autoservis Janka je porodična firma osnovana 1995. godine sa ciljem pružanja vrhunskih usluga održavanja i popravke vozila. Sa više od dve decenije iskustva, naš tim stručnjaka je posvećen pružanju najbolje moguće usluge našim klijentima. </p>
     </div>
 
 </div>
@@ -235,7 +266,7 @@ footer {
 <div class="section5">
     <div class="row">
 <div class="col-lg-6 col-md-6 col-sm-12">
-    <p class="text-center">EXIT je proglašen i za Najbolji evropski festival za 2016. godinu od strane vodećeg evropskog turističkog priznanja "European Best Destinations", koje se dodeljuje u saradnji sa sa Evropskom komisijom, dok je Savet za regionalnu saradnju 2017. odabrao EXIT festival za Šampiona regionalne saradnje u Jugoistočnoj Evropi.</p>
+    <p class="text-center">Naša misija je da svakom vozilu pristupimo sa pažnjom i profesionalizmom, kako bismo obezbedili sigurnost i pouzdanost naših korisnika na putu. Pored toga, kontinuirano se usavršavamo i prilagođavamo novim tehnologijama i trendovima u auto industriji kako bismo bili u korak sa zahtevima savremenog vozača. Posetite nas i uverite se zašto smo jedan od najpouzdanijih autoservisa u Novom Sadu.</p>
 </div>
 
 
@@ -245,6 +276,40 @@ footer {
     
     </div>
 </div>
+<style>
+    /* Stil za telefone */
+    @media (max-width: 768px) {
+      .col-lg-6,
+      .col-md-6 {
+        width: 100%;
+      }
+  
+      .float-start{
+        display: block;
+        margin: 0 auto; /* Centriranje slike */
+        max-width: 80%; /* Maksimalna širina slike */
+        height: 200px; /* Automatska visina */
+      }
+
+  .float-end {
+        display: block;
+        margin: 0 auto; /* Centriranje slike */
+        max-width: 70%; /* Maksimalna širina slike */
+        height: 300px; /* Automatska visina */
+        margin-left: 50px;
+      }
+      .text-center {
+        text-align: center; /* Centriranje teksta */
+      }
+    }
+  </style>
+  
+
+
+
+
+
+
 
  <div class="oglas">
     <p class="text-center">Trazite posao?</p>
@@ -257,44 +322,13 @@ footer {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         <footer>
             <div class="footer-text"> 
               <p class="text-start">KONTAKT PODACI</p>
               <p class="text-start">Janka Čmelika 15</p>
               <p class="text-start">autoservisjanka@gmail.com</p>
             </div>
-            <img src="logoproba.png" id="logo-footer" class="center-image">
+            <img src="logo.png" id="logo-footer" class="center-image">
             <div class="footer-text2 text-end">
               <p>KONTAKT TELEFON</p>
               <p>+381 123 456</p>
@@ -304,19 +338,27 @@ footer {
           <p class="text-center">Developed by: Ivazony </p>
           
           
+          <style>
+            /* Stil za telefon */
+            @media (max-width: 768px) {
+              footer {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+              }
           
+              .footer-text,
+              .footer-text2 {
+                text-align: center;
+                margin-bottom: 10px;
+              }
           
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
+              .footer-text p,
+              .footer-text2 p {
+                font-size: 14px; /* Postavite željenu manju veličinu teksta za telefone */
+              }
+            }
+          </style>
           
           
           
