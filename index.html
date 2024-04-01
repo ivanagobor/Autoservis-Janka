@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Janka servis - Pocetna</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+ body 
+ {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+
+ .navbar {
+  background-color: black;
+  color: white;
+  margin-right: 30px;
+}
+
+.navbar-brand {
+  color: white; /* Ensure brand text is also white */
+  background-color: black;
+}
+
+.nav-link {
+  color: white; /* Style navigation link text color */
+}
+
+.dropdown-menu {
+  background-color: black; /* Set dropdown menu background to black */
+  color: white; /* Set dropdown menu text color to white */
+}
+
+.dropdown-item {
+  color: white; /* Style dropdown item text color */
+}
+.navbar-brand a, /* Target anchor tag within brand element */
+.nav-link,
+.dropdown-item {
+  color: white; /* Set initial text color to white */
+}
+
+.navbar-brand a:hover, /* Target anchor tag within brand on hover */
+.nav-link:hover,
+.dropdown-item:hover {
+  color: red; /* Change text color to red on hover */
+  border: 1px solid white;
+}
+
+.carousel-inner img {
+    width: 400px; /* Postavite željenu širinu slike */
+    height: 600px; /* Postavite željenu visinu slike */
+    object-fit: cover; /* Da bi se slike prilagodile dimenzijama */
+}
+.carousel-caption h5,
+  .carousel-caption p {
+    color: rgb(255, 255, 255); /* Tamnija boja teksta */
+    font-weight: bolder; /* Deblji font */
+    font-family: Arial, Helvetica, sans-serif;
+  }
+.oglas {
+    display: flex;
+    justify-content: center; /* Centriranje po horizontali */
+    align-items: center; /* Centriranje po vertikali */
+    background-image: linear-gradient(to right, #9E2A2A, #380F0F);
+    color: white;
+    text-align: center; /* Centriranje teksta unutar diva */
+    font-size: 1.2em; /* Povećanje veličine slova */
+}
+
+.oglas p {
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.oglas a {
+    color: white;
+    text-decoration: underline;
+}
+.services-text {
+    text-align: center;
+    color: white;
+}
+
+.big {
+    font-size: 24px; /* ili bilo koja druga veličina fonta koju želite */
+}
+.services {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.service {
+    text-align: center;
+    margin: 100px; /* Dodajte margine po potrebi */
+}
+
+.service img {
+    width: 100px; /* Prilagodite veličinu slike prema potrebi */
+    height: 100px; /* Prilagodite veličinu slike prema potrebi */
+}
+
+
+.section3 {
+    margin: 0 auto;
+    padding: 20px;
+    display: flex; /* Dodajemo flexbox */
+    align-items: center; /* Centriramo vertikalno */
+    color: white;
+}
+
+.left-image {
+    width: 700px;
+    height: 400px;
+    margin-left: 30px;
+    margin-right: 30px; /* Dodajemo razmak sa desne strane slike */
+}
+
+.right-content {
+    margin-right: 130px;
+}
+
+.right-content h1 {
+    font-size: 80px;
+    margin-right: 30px;
+}
+
+.right-content h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.right-content p {
+    font-size: 14px;
+}
+.horizontal-line {
+    border-top: 2px solid #FF0000; /* Crvena boja linije */
+    margin: 20px 0; /* Margine iznad i ispod linije */
+}
+.section4 {
+  background-color: gray;
+  color:black;
+  padding-left: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+#white-part {
+  color: white;
+}
+.footer-text 
+{
+color: white;
+margin-left: 30px;
+}
+#logo-footer 
+{
+margin-left: 750px;
+ height: 200px;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footer-text {
+    text-align: left;
+  }
+
+  #logo-footer {
+    margin: 0 auto; /* centriranje slike */
+  }
+
+  .text-end {
+    text-align: right;
+  }
+.footer-text2{
+  color: white;
+  margin-right: 30px;
+}
+</style>        
+</head>
+<body>
+
+  <body class="bg-black">
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg d-flex justify-content-between bg-black">
+            <a class="navbar-brand" href="#">
+                <img src="logoproba.png" alt="Logo" width="100" height="50">
+            </a>
+ 
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Početna</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="onama.html">O nama</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Naše usluge
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="automehanicarskeusuge.html">Automehaničarske usluge</a></li>
+                            <li><a class="dropdown-item" href="autoelektricarskeusluge.html">Autoelektričarske usluge</a></li>
+                        </ul>
+                        <li class="nav-item">
+                            <a class="nav-link" href="kontakt.html">Kontakt</a>
+                        </li>
+                </ul>
+            </div>
+        </div>
+        </nav>
+
+<!--slider -->
+<div id="carouselExampleDark" class="carousel carousel-dark slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="IMG_8383.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>First slide label</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="IMG_8331.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="IMG_8357.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div class="oglas">
+    <p class="text-center">Trazite posao?</p>
+    <p class="text-center">Mi trazimo iskusnog automehanicara</p>
+    <p class="text-center"><a href="#"><b>Procitaj vise ovde</a><b></a></p>
+</div>
+
+
+<div class="services-text">
+    <p class="big">Nase usluge</p>
+    <p>Ovo su nase usluge koje pruzamo u autoservisu</p>
+</div>
+
+<div class="services">
+  <div class="service">
+      <img src="car-service.png" alt="Automehaničarske usluge">
+      <br><br>
+      <p>Automehaničarske usluge</p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+      </p>
+  </div>
+  <div class="service">
+      <img src="electrical-service.png" alt="Automehaničarske usluge">
+      <br><br>
+      <p>Autoelekričarske usluge</p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+      </p>
+  </div>
+</div>
+
+<div class="section3">
+  <img src="section3.jpg" alt="Slika" class="left-image">
+  <div class="right-content">
+      <h3>Dobrodosli u servis Janka</h3>
+      <h1>Imamo 24 godina iskustva</h1>
+      <div class="horizontal-line"></div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis</p>
+  </div>
+</div>
+<br><br><br><br>
+ <div class="section4"> 
+ <h1>Trazite provereno dobrog automehanicara? </h1>
+ <br>
+ <h4>Posetite Janka Servis koji se nalazi u Novom 
+  Sadu u ulici Janka Cmelika.</h4>
+  <br>
+  <p id="white-part">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quisLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis</p>
+  <h3></h3>
+ </div>
+
+
+
+ <footer>
+  <div class="footer-text"> 
+    <p class="text-start">KONTAKT PODACI</p>
+    <p class="text-start">Janka Čmelika 15</p>
+    <p class="text-start">autoservisjanka@gmail.com</p>
+  </div>
+  <img src="logoproba.png" id="logo-footer" class="center-image">
+  <div class="footer-text2 text-end">
+    <p>KONTAKT TELEFON</p>
+    <p>+381 123 456</p>
+    <p>Novi Sad, Srbija</p>
+  </div>
+</footer>
+<p class="text-center">Developed by: Ivazony </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

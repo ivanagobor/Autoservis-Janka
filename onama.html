@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Janka servis - O nama</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+ body {
+  margin: 0; /* Remove any default margins */
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container-fluid {
+  padding: 0; /* Remove any default paddings */
+}
+ .navbar {
+  background-color: black;
+  color: white;
+  margin-right: 30px;
+}
+
+.navbar-brand {
+  color: white; /* Ensure brand text is also white */
+  background-color: black;
+}
+
+.nav-link {
+  color: white; /* Style navigation link text color */
+}
+
+.dropdown-menu {
+  background-color: black; /* Set dropdown menu background to black */
+  color: white; /* Set dropdown menu text color to white */
+}
+
+.dropdown-item {
+  color: white; /* Style dropdown item text color */
+}
+.navbar-brand a, /* Target anchor tag within brand element */
+.nav-link,
+.dropdown-item {
+  color: white; /* Set initial text color to white */
+}
+
+.navbar-brand a:hover, /* Target anchor tag within brand on hover */
+.nav-link:hover,
+.dropdown-item:hover {
+  color: red; /* Change text color to red on hover */
+  border: 1px solid white;
+}
+
+.img-fluid {
+  height: 250px; /* Postavite željenu visinu */
+  width: 2100px;
+}
+.naslov
+{
+    background-image: linear-gradient(to right, #9E2A2A, #380F0F);
+    color: white;
+    text-align: center; /* Centriranje teksta unutar diva */
+    height: 50px;
+    padding-top: 5px;
+}
+.section1 {
+    margin-top: 20px;
+    color: white;
+}
+
+.horizontal-line {
+    border-top: 2px solid #FF0000; /* Crvena boja linije */
+    margin: 20px 0; /* Margine iznad i ispod linije */
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+
+.section2 p{
+    margin-left: 500px;
+    margin-right: 500px;
+    color: white;
+    margin-top: 10px;
+}
+
+.section4 img{
+    margin-left: 50px;
+    width: 700px;
+    height: 400px;
+}
+.section4 p 
+{
+margin-top:150px;
+color: white;
+margin-right: 8px;
+}
+.section5  img{
+    margin-right: 100px;
+    width: 700px;
+    height: 400px;
+}
+
+.section5 p 
+{
+margin-top:150px;
+color: white;
+
+}
+.oglas {
+    display: flex;
+    justify-content: center; /* Centriranje po horizontali */
+    align-items: center; /* Centriranje po vertikali */
+    background-image: linear-gradient(to right, #9E2A2A, #380F0F);
+    color: white;
+    text-align: center; /* Centriranje teksta unutar diva */
+    font-size: 1.2em; /* Povećanje veličine slova */
+    margin-top: 30px;
+}
+
+.oglas p {
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.oglas a {
+    color: white;
+    text-decoration: underline;
+}
+
+
+
+.footer-text 
+{
+color: white;
+margin-left: 30px;
+text-align: left;
+}
+#logo-footer 
+{
+margin-left: 750px;
+ height: 200px;
+ margin: 0 auto; /* centriranje slike */
+
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .text-end {
+    text-align: right;
+  }
+.footer-text2{
+  color: white;
+  margin-right: 30px;
+}
+    </style>
+<body class="bg-black">
+  <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg d-flex justify-content-between bg-black">
+          <a class="navbar-brand" href="#">
+              <img src="logoproba.png" alt="Logo" width="100" height="50">
+          </a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="index.html">Početna</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="onama.html">O nama</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                          aria-expanded="false">
+                          Naše usluge
+                      </a>
+                      <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="automehanicarskeusuge.html">Automehaničarske usluge</a></li>
+                          <li><a class="dropdown-item" href="autoelektricarskeusluge.html">Autoelektričarske usluge</a></li>
+                      </ul>
+                      <li class="nav-item">
+                          <a class="nav-link" href="kontakt.html">Kontakt</a>
+                      </li>
+              </ul>
+          </div>
+      </div>
+      </nav>
+
+      <div class="pitcure1">
+      <img src="janka_doo1.JPG" class="img-fluid" alt="car-service">
+      </div>
+       
+       <div class="naslov">
+      <h2 class="text-center"> O nama </h2>
+    </div>
+
+     <div class="section1">
+        <p class="text-center">Servis Test postoji od 2000. Godine, višegodisnje iskustvo, desetine zadovoljnih klijenata, servis opremljen najsavremenijom opremom po evropskim standardima. Nas servis stoji na usluzi kako fizičkim tako i svim pravnim licima. Naši zaposleni će uvek izaći u susret klijentima za savet i najbrše otklanjanje svih vrsta kvarova na vašem vozilu.Servis Test postoji od 2000. Godine, višegodisnje iskustvo, desetine zadovoljnih klijenata, servis opremljen najsavremenijom opremom po evropskim standardima. Nas servis stoji na usluzi kako fizičkim tako i svim pravnim licima. Naši zaposleni će uvek izaći u susret klijentima za savet i najbrše otklanjanje svih vrsta kvarova na vašem vozilu.</p>
+     </div>
+
+     <div class="text-center">
+        <img src="IMG_8383.jpg" alt="car-service" style="max-height: 380px; width: 700px;;">
+    </div>
+    
+   
+
+    <div class="section2">
+    <p class="text-center"> Dobrodosli u servis Janka </p>
+    <h4 class="text-center"> Zasto nam mozete verovati? </h4>
+    <div class="horizontal-line"></div>
+
+    <p class="text-center"> Servis Test postoji od 2000. Godine, višegodisnje iskustvo, desetine zadovoljnih klijenata, servis opremljen najsavremenijom opremom po evropskim standardima. Nas servis stoji na usluzi kako fizičkim tako i svim pravnim licima. Naši zaposleni će uvek izaći u susret klijentima za savet i najbrše otklanjanje svih vrsta kvarova na vašem vozilu.Servis Test postoji od 2000. Godine, višegodisnje iskustvo, desetine zadovoljnih klijenata, servis opremljen najsavremenijom opremom po evropskim standardima. Nas servis stoji na usluzi kako fizičkim tako i svim pravnim licima. Naši zaposleni će uvek izaći u susret klijentima za savet i najbrše otklanjanje svih vrsta kvarova na vašem vozilu.</p>
+</div>
+
+<div class="section4">
+<div class="row">
+    <div class="col-lg-6 col-md-6 col-sm-12">
+        <img src="IMG_8357.jpg"  class="float-start"> 
+    </div>
+
+    <div class="col-lg-6 col-md-6 col-sm-12">
+        <p class="text-center">EXIT je proglašen i za Najbolji evropski festival za 2016. godinu od strane vodećeg evropskog turističkog priznanja "European Best Destinations", koje se dodeljuje u saradnji sa sa Evropskom komisijom, dok je Savet za regionalnu saradnju 2017. odabrao EXIT festival za Šampiona regionalne saradnje u Jugoistočnoj Evropi.</p>
+    </div>
+
+</div>
+</div>
+
+<div class="section5">
+    <div class="row">
+<div class="col-lg-6 col-md-6 col-sm-12">
+    <p class="text-center">EXIT je proglašen i za Najbolji evropski festival za 2016. godinu od strane vodećeg evropskog turističkog priznanja "European Best Destinations", koje se dodeljuje u saradnji sa sa Evropskom komisijom, dok je Savet za regionalnu saradnju 2017. odabrao EXIT festival za Šampiona regionalne saradnje u Jugoistočnoj Evropi.</p>
+</div>
+
+
+        <div class="col-lg-6 col-md-6 col-sm-12">
+            <img src="IMG_8455.jpg"  class="float-end img-fluid"> <!-- Promenite širinu slike prema potrebi -->
+        </div>
+    
+    </div>
+</div>
+
+ <div class="oglas">
+    <p class="text-center">Trazite posao?</p>
+    <p class="text-center">Mi trazimo iskusnog automehanicara</p>
+    <p class="text-center"><a href="#"><b>Procitaj vise ovde</a><b></a></p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <footer>
+            <div class="footer-text"> 
+              <p class="text-start">KONTAKT PODACI</p>
+              <p class="text-start">Janka Čmelika 15</p>
+              <p class="text-start">autoservisjanka@gmail.com</p>
+            </div>
+            <img src="logoproba.png" id="logo-footer" class="center-image">
+            <div class="footer-text2 text-end">
+              <p>KONTAKT TELEFON</p>
+              <p>+381 123 456</p>
+              <p>Novi Sad, Srbija</p>
+            </div>
+          </footer>
+          <p class="text-center">Developed by: Ivazony </p>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+              <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+          </body>
+          </html>
