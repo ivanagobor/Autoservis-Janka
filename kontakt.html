@@ -52,6 +52,13 @@
   color: red; /* Change text color to red on hover */
   border: 1px solid white;
 }
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-toggler {
+    border-color: white; /* Dodavanje bele boje ivice oko hamburger ikonice */
+}
 .img-fluid {
   height: 300px; /* Postavite željenu visinu */
   width: 1800px;
@@ -62,7 +69,7 @@
     color: white;
     text-align: center; /* Centriranje teksta unutar diva */
     height: 50px;
-    padding-top: 5px;
+   
 }
 
 .section1 img {
@@ -79,29 +86,6 @@
   color: white;
   margin-top: 50px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .footer-text 
@@ -171,7 +155,7 @@ initMap();
     <div class="container-fluid">
         <nav class="navbar navbar-expand-lg d-flex justify-content-between bg-black">
             <a class="navbar-brand" href="#">
-                <img src="logoproba.png" alt="Logo" width="100" height="50">
+              <img src="logo.png" alt="Logo" width="100" height="90">
             </a>
   
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -206,13 +190,14 @@ initMap();
     </div>
     </nav>
 
-                <div class="pitcure1">
-                    <img src="JANKA.jpg" class="img-fluid" alt="car-service">
-                    </div>
-                     
-                     <div class="naslov">
-                    <h2 class="text-center"> Kontakt </h2>
-                  </div>
+    <div class="pitcure1">
+      <img src="JANKA.jpg" class="img-fluid" alt="car-service" style="width: 100vw;">
+  </div>
+  
+       
+       <div class="naslov">
+      <h2 class="text-center"> Kontakt </h2>
+    </div>
                
 
 
@@ -267,51 +252,13 @@ initMap();
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <footer>
     <div class="footer-text"> 
       <p class="text-start">KONTAKT PODACI</p>
       <p class="text-start">Janka Čmelika 15</p>
       <p class="text-start">autoservisjanka@gmail.com</p>
     </div>
-    <img src="logoproba.png" id="logo-footer" class="center-image">
+    <img src="logo.png" id="logo-footer" class="center-image">
     <div class="footer-text2 text-end">
       <p>KONTAKT TELEFON</p>
       <p>+381 123 456</p>
@@ -323,19 +270,27 @@ initMap();
   
   
   
+  <style>
+    /* Stil za telefon */
+    @media (max-width: 768px) {
+      footer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
   
+      .footer-text,
+      .footer-text2 {
+        text-align: center;
+        margin-bottom: 10px;
+      }
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+      .footer-text p,
+      .footer-text2 p {
+        font-size: 14px; /* Postavite željenu manju veličinu teksta za telefone */
+      }
+    }
+  </style>
   
   
   
