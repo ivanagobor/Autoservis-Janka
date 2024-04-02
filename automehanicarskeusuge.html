@@ -52,7 +52,13 @@ body {
   color: red; /* Change text color to red on hover */
   border: 1px solid white;
 }
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
 
+.navbar-toggler {
+    border-color: white; /* Dodavanje bele boje ivice oko hamburger ikonice */
+}
 .img-fluid {
   height: 300px; /* Postavite željenu visinu */
   width: 1800px;
@@ -144,7 +150,7 @@ footer {
    <div class="container-fluid">
        <nav class="navbar navbar-expand-lg d-flex justify-content-between bg-black">
            <a class="navbar-brand" href="#">
-               <img src="logoproba.png" alt="Logo" width="100" height="50">
+               <img src="logo.png" alt="Logo" width="100" height="90">
            </a>
 
            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -209,6 +215,22 @@ footer {
     <img src="IMG_8351.jpg" alt="...">
 </div>
 
+<style> 
+/* Stil za telefone */
+@media (max-width: 768px) {
+  .section2 img {
+    margin-left: auto; /* Centriranje slike */
+    margin-right: auto; /* Centriranje slike */
+    width: 100%; /* Slika zauzima celu širinu ekrana */
+    height: auto; /* Automatska visina */
+  }
+}
+</style>
+
+
+
+
+
 <div class="section1">
     <div class="container mt-5">
      <div class="row">
@@ -231,7 +253,7 @@ footer {
      <div class="oglas">
         <p class="text-center">Trazite posao?</p>
         <p class="text-center">Mi trazimo iskusnog automehanicara</p>
-        <p class="text-center"><a href="#"><b>Procitaj vise ovde</a><b></a></p>
+        <p class="text-center"><a href="posao.html"><b>Procitaj vise ovde</a><b></a></p>
     </div>
     
     <footer>
@@ -240,7 +262,7 @@ footer {
           <p class="text-start">Janka Čmelika 15</p>
           <p class="text-start">autoservisjanka@gmail.com</p>
         </div>
-        <img src="logoproba.png" id="logo-footer" class="center-image">
+        <img src="logo.png" id="logo-footer" class="center-image">
         <div class="footer-text2 text-end">
           <p>KONTAKT TELEFON</p>
           <p>+381 123 456</p>
@@ -248,6 +270,29 @@ footer {
         </div>
       </footer>
       <p class="text-center">Developed by: Ivazony </p>
+      
+      
+      <style>
+        /* Stil za telefon */
+        @media (max-width: 768px) {
+          footer {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+          }
+      
+          .footer-text,
+          .footer-text2 {
+            text-align: center;
+            margin-bottom: 10px;
+          }
+      
+          .footer-text p,
+          .footer-text2 p {
+            font-size: 14px; /* Postavite željenu manju veličinu teksta za telefone */
+          }
+        }
+      </style>
       
       
       
