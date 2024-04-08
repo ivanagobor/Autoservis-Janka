@@ -10,6 +10,7 @@
  body {
   margin: 0; /* Remove any default margins */
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
 }
 
 .container-fluid {
@@ -57,8 +58,11 @@
 .navbar-toggler {
     border-color: white; /* Dodavanje bele boje ivice oko hamburger ikonice */
 }
+.navbar-brand img {
+  margin-left: 5px;
+}
 .img-fluid {
-  height: 250px; /* Postavite željenu visinu */
+  height: 200px; /* Postavite željenu visinu */
   width: 2100px;
 }
 .naslov
@@ -99,6 +103,9 @@
 margin-top:150px;
 color: white;
 margin-right: 8px;
+}
+.section2 h4{
+  color: rgb(138, 133, 133);
 }
 .section5  img{
     margin-right: 100px;
@@ -200,15 +207,23 @@ footer {
       </nav>
 
       <div class="pitcure1">
-      <img src="janka_doo1.JPG" class="img-fluid" alt="car-service">
+      <img src="hederslika.jpg" class="img-fluid" alt="car-service">
       </div>
-       
+      <style>
+      @media (max-width: 576px) {
+        .pitcure1 img {
+          width: 100%;
+          height: auto;
+          object-fit: cover;
+        }
+      }
+    </style>
        <div class="naslov">
       <h2 class="text-center"> O nama </h2>
     </div>
 
      <div class="section1">
-        <p class="text-center">Servis Test postoji od 2000. Godine, višegodisnje iskustvo, desetine zadovoljnih klijenata, servis opremljen najsavremenijom opremom po evropskim standardima. Nas servis stoji na usluzi kako fizičkim tako i svim pravnim licima. Naši zaposleni će uvek izaći u susret klijentima za savet i najbrše otklanjanje svih vrsta kvarova na vašem vozilu.Servis Test postoji od 2000. Godine, višegodisnje iskustvo, desetine zadovoljnih klijenata, servis opremljen najsavremenijom opremom po evropskim standardima. Nas servis stoji na usluzi kako fizičkim tako i svim pravnim licima. Naši zaposleni će uvek izaći u susret klijentima za savet i najbrše otklanjanje svih vrsta kvarova na vašem vozilu.</p>
+        <p class="text-center">Naš auto servis je osnovan sa ciljem da pruži vrhunsku uslugu održavanja i popravke vozila svim našim klijentima. Sa timom stručnih i iskusnih mehaničara, garantujemo efikasno otklanjanje svih vrsta kvarova na vašem vozilu.</p>
      </div>
 
      <div class="text-center">
@@ -231,7 +246,7 @@ footer {
     <h4 class="text-center"> Zašto nam možete verovati? </h4>
     <div class="horizontal-line"></div>
 
-    <p class="text-center"> Servis Test postoji od 2000. Godine, višegodisnje iskustvo, desetine zadovoljnih klijenata, servis opremljen najsavremenijom opremom po evropskim standardima. Nas servis stoji na usluzi kako fizičkim tako i svim pravnim licima. Naši zaposleni će uvek izaći u susret klijentima za savet i najbrše otklanjanje svih vrsta kvarova na vašem vozilu.Servis Test postoji od 2000. Godine, višegodisnje iskustvo, desetine zadovoljnih klijenata, servis opremljen najsavremenijom opremom po evropskim standardima. Nas servis stoji na usluzi kako fizičkim tako i svim pravnim licima. Naši zaposleni će uvek izaći u susret klijentima za savet i najbrše otklanjanje svih vrsta kvarova na vašem vozilu.</p>
+    <p class="text-center">Servis "SZR Remont Servis Vladimir Janka" je pouzdan partner u održavanju vašeg vozila od 1998. godine. Sa višegodišnjim iskustvom i desetinama zadovoljnih klijenata, naš servis je opremljen najsavremenijom opremom koja zadovoljava evropske standarde. Bez obzira da li ste fizičko ili pravno lice, naš tim zaposlenih će uvek izaći u susret sa savetima i najbržim otklanjanjem svih vrsta kvarova na vašem vozilu. Vaše poverenje nam je važno, zato smo tu da pružimo vrhunsku uslugu i obezbedimo sigurnost vašeg vozila.</p>
 </div>
 
 <style>
@@ -259,11 +274,12 @@ footer {
 <div class="section4">
 <div class="row">
     <div class="col-lg-6 col-md-6 col-sm-12">
-        <img src="IMG_8357.jpg"  class="float-start"> 
+        <img src="IMG_0625.jpg"  class="float-start"> 
     </div>
 
     <div class="col-lg-6 col-md-6 col-sm-12">
-        <p class="text-center">"Autoservis Janka je porodična firma osnovana 1995. godine sa ciljem pružanja vrhunskih usluga održavanja i popravke vozila. Sa više od dve decenije iskustva, naš tim stručnjaka je posvećen pružanju najbolje moguće usluge našim klijentima. </p>
+        <p class="text-center">
+          Autoservis Janka je porodična firma osnovana 1998. godine sa ciljem pružanja vrhunskih usluga održavanja i popravke vozila. Sa više od dve decenije iskustva, naš tim stručnjaka je posvećen pružanju najbolje moguće usluge našim klijentima. Nalazimo se u ulici Janka Čmelika 15, gde sa pažnjom i predanošću održavamo i popravljamo vaša vozila.</p>
     </div>
 
 </div>
@@ -272,7 +288,7 @@ footer {
 <div class="section5">
     <div class="row">
 <div class="col-lg-6 col-md-6 col-sm-12">
-    <p class="text-center">Naša misija je da svakom vozilu pristupimo sa pažnjom i profesionalizmom, kako bismo obezbedili sigurnost i pouzdanost naših korisnika na putu. Pored toga, kontinuirano se usavršavamo i prilagođavamo novim tehnologijama i trendovima u auto industriji kako bismo bili u korak sa zahtevima savremenog vozača. Posetite nas i uverite se zašto smo jedan od najpouzdanijih autoservisa u Novom Sadu.</p>
+    <p class="text-center">Naša misija je da pružimo bezbednu i pouzdanu vožnju svakom vozaču, stoga se možete osloniti na nas kao vašeg pouzdanog partnera u održavanju vašeg vozila.</p>
 </div>
 
 
@@ -295,14 +311,15 @@ footer {
         margin: 0 auto; /* Centriranje slike */
         max-width: 80%; /* Maksimalna širina slike */
         height: 200px; /* Automatska visina */
+        width: 150px;
       }
 
   .float-end {
         display: block;
         margin: 0 auto; /* Centriranje slike */
-        max-width: 70%; /* Maksimalna širina slike */
+        max-width: 90%; 
         height: 300px; /* Automatska visina */
-        margin-left: 50px;
+        
       }
       .text-center {
         text-align: center; /* Centriranje teksta */
@@ -365,6 +382,21 @@ footer {
               }
             }
           </style>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
           
           
           
