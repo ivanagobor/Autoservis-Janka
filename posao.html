@@ -61,6 +61,10 @@
   height: 250px; /* Postavite željenu visinu */
   width: 2100px;
 }
+.pitcure1 img {
+  height: 200px; /* Postavite željenu visinu */
+  width: 2100px;
+}
 .naslov
 {
     background-image: linear-gradient(to right, #9E2A2A, #380F0F);
@@ -154,9 +158,18 @@
         </div>
         </nav>
     
-                    <div class="pitcure1">
-                        <img src="JANKA.jpg" class="img-fluid" alt="car-service">
-                        </div>
+        <div class="pitcure1">
+          <img src="hederslika.jpg" class="img-fluid" alt="car-service">
+          </div>
+          <style>
+          @media (max-width: 576px) {
+            .pitcure1 img {
+              width: 100%;
+              height: auto;
+              object-fit: cover;
+            }
+          }
+        </style>
                          
                          <div class="naslov">
                         <h2 class="text-center"> Posao </h2>
@@ -172,22 +185,6 @@
                           <p class="adress"> E-mail adresa: wsetststgsdtsedts</p>
                         </div>
                       </div>   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
