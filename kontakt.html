@@ -59,9 +59,9 @@
 .navbar-toggler {
     border-color: white; /* Dodavanje bele boje ivice oko hamburger ikonice */
 }
-.img-fluid {
-  height: 300px; /* Postavite željenu visinu */
-  width: 1800px;
+.pitcure1 img {
+  height: 200px; /* Postavite željenu visinu */
+  width: 2100px;
 }
 .naslov
 {
@@ -84,7 +84,6 @@
 }
 .text-center{
   color: white;
-  margin-top: 50px;
 }
 
 
@@ -191,9 +190,17 @@ initMap();
     </nav>
 
     <div class="pitcure1">
-      <img src="JANKA.jpg" class="img-fluid" alt="car-service" style="width: 100vw;">
-  </div>
-  
+      <img src="hederslika.jpg" class="img-fluid" alt="car-service">
+      </div>
+      <style>
+      @media (max-width: 576px) {
+        .pitcure1 img {
+          width: 100%;
+          height: auto;
+          object-fit: cover;
+        }
+      }
+    </style>
        
        <div class="naslov">
       <h2 class="text-center"> Kontakt </h2>
@@ -291,6 +298,18 @@ initMap();
       }
     }
   </style>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
   
