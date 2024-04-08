@@ -59,6 +59,13 @@ body {
 .navbar-toggler {
     border-color: white; /* Dodavanje bele boje ivice oko hamburger ikonice */
 }
+.navbar-brand img {
+  margin-left: 5px;
+}
+.pitcure1 img {
+  height: 200px; /* Postavite željenu visinu */
+  width: 2100px;
+}
 .img-fluid {
   height: 300px; /* Postavite željenu visinu */
   width: 1800px;
@@ -76,6 +83,7 @@ body {
       flex-wrap: wrap;
       justify-content: space-between;
     }
+  
 .section1 h3,p {
 color: white;
 margin-top: 10px;
@@ -148,18 +156,6 @@ footer {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 </style>
 
 
@@ -202,27 +198,35 @@ footer {
     </div>
     </nav>
 
-                <div class="pitcure1">
-                    <img src="JANKA.jpg" class="img-fluid" alt="car-service">
-                    </div>
-                     
-                     <div class="naslov">
-                    <h2 class="text-center"> Automehaničarske usluge </h2>
-                  </div>
-               
+    <div class="pitcure1">
+      <img src="hederslika.jpg" class="img-fluid" alt="car-service">
+      </div>
+      <style>
+      @media (max-width: 576px) {
+        .pitcure1 img {
+          width: 100%;
+          height: auto;
+          object-fit: cover;
+        }
+      }
+    </style>
+
+<div class="naslov">
+  <h2 class="text-center"> Autoelektričarske usluge </h2>
+</div>
 
 
                   <div class="section1">
                     <div class="container mt-5">
                      <div class="row">
                        <div class="col-md-4">
-                         <img src="IMG_8402.jpg" class="img-fluid" alt="Slika 1">
+                         <img src="IMG_0553.jpg" class="img-fluid" alt="Slika 1">
                          <h3 class="text-center">Servisiranje anlasera i altenatora</h3>
                          <div class="horizontal-line"></div>
                          <p>Servisiranje alnasera i alternatora obuhvata održavanje i popravke ovih ključnih komponenti u automobilu. To može uključivati čišćenje kontakata, zamenu četkica i proveru ležajeva ili remenica kod alnasera, dok se kod alternatora može raditi na zameni regulatora napona, četkica, ležajeva ili dioda. Održavanje ovih delova je važno za ispravan rad električnog sistema vozila.</p>
                        </div>
                        <div class="col-md-4">
-                         <img src="IMG_8455.jpg" class="img-fluid" alt="Slika 2">
+                         <img src="blurovan4.jpg" class="img-fluid" alt="Slika 2">
                          <h3 class="text-center"> Servisiranje svetlosne signalizacije </h3>
                          <div class="horizontal-line"></div>
                          <p>Servisiranje svetlosne signalizacije vozila obuhvata održavanje i popravke svetlosnih sistema kao što su farovi, stop svetla, migavci i sijalice. To može uključivati zamenu oštećenih sijalica, čišćenje sočiva farova, proveru i eventualnu zamenu ožičenja i prekidača. Redovno održavanje svetlosne signalizacije je važno za bezbednost vožnje, jer omogućava vozaču da vidi i bude viđen u saobraćaju.</p>
@@ -253,13 +257,13 @@ footer {
                         <p>Servisiranje centralnih brava vozila obuhvata održavanje i popravke sistema za zaključavanje i otključavanje vrata vozila. To može uključivati podmazivanje brava, proveru i eventualnu zamenu oštećenih delova kao što su bravice, elektromagneti ili senzori. Redovno održavanje centralnih brava pomaže u očuvanju njihove funkcionalnosti i sprečava probleme sa zaključavanjem ili otključavanjem vrata vozila.</p>
                     </div>
                     <div class="col-md-4">
-                        <img src="IMG_8455.jpg" class="img-fluid" alt="Slika 2">
+                        <img src="IMG_0565.jpg" class="img-fluid" alt="Slika 2">
                         <h3 class="text-center">Servisiranje podizaca <br>prozora</h3>
                         <div class="horizontal-line" ></div>
                         <p>Servisiranje podizača prozora vozila obuhvata održavanje i popravke mehanizma koji omogućava podizanje i spuštanje prozora. To može uključivati podmazivanje mehanizma, proveru i eventualnu zamenu oštećenih delova kao što su motori, prekidači, regulatori ili kablove. Redovno održavanje podizača prozora pomaže u očuvanju njihove funkcionalnosti i sprečava probleme sa podizanjem ili spuštanjem prozora.</p>
                     </div>
                     <div class="col-md-4">
-                        <img src="IMG_8402.jpg" class="img-fluid" alt="Slika 3">
+                        <img src="IMG_0591.jpg" class="img-fluid" alt="Slika 3">
                         <h3 class="text-center">Servisiranje remont autoprekidaca</h3>
                         <div class="horizontal-line"></div>
                         <p>Servisiranje remonta autoprekiđača obuhvata održavanje i popravke ovih ključnih komponenti u automobilu. To može uključivati čišćenje kontakata, zamenu oštećenih delova kao što su prekidači ili konektori, podešavanje mehanizama za rad autoprekiđača. Redovno održavanje autoprekiđača je važno za očuvanje ispravnog rada sistema paljenja i električnih sistema vozila.</p>
