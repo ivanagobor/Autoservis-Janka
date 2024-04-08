@@ -59,10 +59,15 @@ body {
 .navbar-toggler {
     border-color: white; /* Dodavanje bele boje ivice oko hamburger ikonice */
 }
-.img-fluid {
-  height: 300px; /* Postavite željenu visinu */
-  width: 1800px;
+.navbar-brand img {
+  margin-left: 5px;
 }
+.pitcure1 img {
+  height: 200px; /* Postavite željenu visinu */
+  width: 2100px;
+}
+
+
 .naslov
 {
     background-image: linear-gradient(to right, #9E2A2A, #380F0F);
@@ -81,10 +86,11 @@ color: white;
 margin-top: 10px;
 }
 .section2 img {
-      margin-left: 183px; /* razmak sa leve strane */
+      margin-left: 400px; /* razmak sa leve strane */
       margin-right: 183px; /* razmak sa desne strane */
-      width: 78%;
+      width: 60%;
       height: 500px;
+      
     }
 .horizontal-line {
     border-top: 2px solid #FF0000; /* Crvena boja linije */
@@ -185,10 +191,20 @@ footer {
        </div>
        </nav>
 
-     <div class="pitcure1">
-     <img src="JANKA.jpg" class="img-fluid" alt="car-service">
-     </div>
-      
+       <div class="pitcure1">
+        <img src="hederslika.jpg" class="img-fluid" alt="car-service">
+        </div>
+        <style>
+        @media (max-width: 576px) {
+          .pitcure1 img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+          }
+        }
+      </style>
+
+
       <div class="naslov">
      <h2 class="text-center"> Automehaničarske usluge </h2>
    </div>
@@ -197,13 +213,13 @@ footer {
    <div class="container mt-5">
     <div class="row">
       <div class="col-md-4">
-        <img src="IMG_8402.jpg" class="img-fluid" alt="Slika 1">
+        <img src="pitcure1.jpg" class="img-fluid" alt="Slika 1">
         <h3 class="text-center">Redovni i mali servisi</h3>
         <div class="horizontal-line"></div>
         <p>Mali servis u autoservisu obuhvata osnovna održavanja kao što su zamena ulja i filtera, provera tečnosti i kočnica. Veliki servis je obuhvatniji i uključuje sve što je u malom servisu, ali i zamenu filtera vazduha i goriva, proveru zupčastog kaiša i sistema za hlađenje motora. Oba su važna za održavanje performansi i produženje veka trajanja vozila.</p>
       </div>
       <div class="col-md-4">
-        <img src="IMG_8455.jpg" class="img-fluid" alt="Slika 2">
+        <img src="IMG_0572.jpg" class="img-fluid" alt="Slika 2">
         <h3 class="text-center"> Servisiranje kocionih sistema</h3>
         <div class="horizontal-line"></div>
         <p>Servisiranje kočionih sistema obuhvata redovnu proveru i održavanje kočnica radi sigurnosti i efikasnosti. Mali servis uključuje proveru diskova, pločica i tečnosti, dok veliki servis može uključivati zamenu creva i cilindara. Oba su važna za sigurnost i pravilno funkcionisanje kočionog sistema vozila.</p>
@@ -212,17 +228,14 @@ footer {
 </div>
 
 <div class="section2">
-    <img src="IMG_8351.jpg" alt="...">
+    <img src="IMG_8357.jpg" alt="...">
 </div>
 
 <style> 
 /* Stil za telefone */
 @media (max-width: 768px) {
   .section2 img {
-    margin-left: auto; /* Centriranje slike */
-    margin-right: auto; /* Centriranje slike */
-    width: 100%; /* Slika zauzima celu širinu ekrana */
-    height: auto; /* Automatska visina */
+    display: none; /* Sakrivanje slike na telefonima */
   }
 }
 </style>
@@ -235,14 +248,14 @@ footer {
     <div class="container mt-5">
      <div class="row">
        <div class="col-md-4">
-         <img src="IMG_8402.jpg" class="img-fluid" alt="Slika 1">
+         <img src="IMG_0465.jpg" class="img-fluid" alt="Slika 1">
          <h3 class="text-center">Servisiranje trapa vozila</h3>
          <div class="horizontal-line"></div>
          <p>
             Servisiranje trapa vozila obuhvata održavanje i popravke sistema koji podržavaju i upravljaju kretanjem vozila. Ovo uključuje vešanje, amortizere, opruge, stabilizatore, ležajeve točkova i druge komponente koje podržavaju vozilo i omogućavaju mu stabilnost i upravljivost. Redovno servisiranje trapa vozila pomaže u održavanju sigurnosti, udobnosti i efikasnosti vožnje.</p>
        </div>
        <div class="col-md-4">
-         <img src="IMG_8455.jpg" class="img-fluid" alt="Slika 2">
+         <img src="IMG_0477.jpg" class="img-fluid" alt="Slika 2">
          <h3 class="text-center">Servisiranje izduvnog sistema</h3>
          <div class="horizontal-line"></div>
          <p>Servisiranje izduvnog sistema vozila obuhvata održavanje i popravke sistema koji uklanjaju ispušne gasove iz motora i smanjuju buku izduvnih gasova. Ovo uključuje ispitivanje i eventualnu zamenu auspuha, katalizatora, cevi izduvnog sistema i drugih komponenti. Redovno servisiranje izduvnog sistema pomaže u održavanju efikasnosti motora, smanjenju emisija i sprečavanju curenja gasova u putnički prostor vozila.</p>
